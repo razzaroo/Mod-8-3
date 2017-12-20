@@ -1,0 +1,17 @@
+{
+  "name": "Zadanie_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:js",
+    "test:js": "glob-run jshint js/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob-run": "^0.1.6",
+    "jshint": "^2.9.5"
+  }
+}
